@@ -1,0 +1,12 @@
+.footer {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+@media (max-width: 468px) {
+
+    .footer .header_logo {
+        margin: auto;
+        padding: 0 0 1rem 0;
+    }
+    }

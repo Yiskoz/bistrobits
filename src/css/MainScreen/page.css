@@ -1,0 +1,4 @@
+.main-screen {
+    background-color: var(--rich-black);
+    z-index: 9999;
+}

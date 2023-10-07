@@ -1,0 +1,51 @@
+.image-ef {
+    user-select: none;
+    animation-duration: 2.5s;
+    animation-name: image-ef;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    transition: .2s;
+}
+
+@keyframes image-ef {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10%);
+
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+@keyframes button {
+    0% {
+
+    }
+
+    100% {
+
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.showToTop {
+    animation: showToTop;
+    animation-duration: 1s;
+}
+
+@keyframes showToTop{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
