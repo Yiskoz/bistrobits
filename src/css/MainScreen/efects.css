@@ -1,0 +1,65 @@
+@keyframes flicker {
+    0% {
+        color: var(--imperial-red);
+    }
+    50% {
+      color: var(--white);
+    }
+    100% {
+        color: var(--imperial-red);
+    }
+    
+  }
+
+.flicker {
+    text-align: center;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-name: flicker;
+  }
+
+@keyframes disapear {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        top: -200rem;
+        opacity: 0;
+    }
+}
+.disapear {
+    animation-name: disapear;
+    animation-duration: 1.5s;
+}
+
+
+
+
+.main-title {
+    user-select: none;
+    animation-duration: 2.5s;
+    animation-name: main-title;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    transition: .2s;
+}
+.main-title:hover {
+    scale: +120%;
+}
+@keyframes main-title {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10%);
+
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,22 @@
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.6;
+    transition: .3s;
+    margin-bottom: 1rem;
+}
+
+.list:hover p {
+    color: var(--imperial-red);
+    transition: .3s;
+}
+
+.price {
+    font-weight: 900;
+}
+
+.ProdDescription {
+    font-style: italic;
+    line-height: 1;
+}
